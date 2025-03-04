@@ -8,7 +8,7 @@ import (
 func main() {
 	// Khởi tạo map
 	mapp := make(map[int]string)
-
+	// map_name := make(map[type_key]type_value)
 	mapp2 := map[int]string{
 		2: "apple",
 		3: "banana",
@@ -26,6 +26,6 @@ func main() {
 	fmt.Println(mapp2)
 	// duyệt phần tử bẳng range
 	for key, value := range mapp {
-		fmt.Printf("key:%d, value:%s\n", key, value)
+		fmt.Printf("k ey:%d, value:%s\n", key, value)
 	}
 }
